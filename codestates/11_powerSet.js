@@ -1,5 +1,4 @@
 const powerSet = function (str) {
-  // TODO: 여기에 코드를 작성합니다.
   const arr = str.split('');
   let filtered = arr.filter((el, i) => arr.indexOf(el) === i);
   filtered.sort();
